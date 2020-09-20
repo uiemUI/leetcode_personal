@@ -1,0 +1,22 @@
+#include<string>
+#include<iostream>
+#include<sstream>
+#include<istream>
+#include<vector>
+#include<algorithm>
+#include<unordered_set>
+#include<unordered_map>
+#include<map>
+#include<assert.h>
+#include<tuple>
+#include<chrono>
+#include<stack>
+#include<bitset>
+#include<queue>
+#include<memory>
+#include<math.h>
+#include<fstream>
+#include<list> 
+#include<numeric>
+#include<functional>
+using namespace std;
