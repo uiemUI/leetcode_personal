@@ -72,7 +72,8 @@
         "typeindex": "cpp",
         "valarray": "cpp",
         "__hash_table": "cpp",
-        "__config": "cpp"
+        "__config": "cpp",
+        "xstddef": "cpp"
     },
     "python.languageServer": "Pylance",
     "C_Cpp.errorSquiggles": "Enabled"
