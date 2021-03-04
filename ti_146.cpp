@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
  * @file ti_146.cpp
  * @author zhuchuang (zhuchuang526@qq.com)
@@ -55,6 +56,8 @@ lRUCache.get(4);    // 返回 4
 
 #include"stand.h"
 
+=======
+>>>>>>> b3c0aebf36a07f518c404fcd0156295bf8a679b6
 
 class LRUCache {
 private:
@@ -64,7 +67,9 @@ private:
     unordered_map<int,list<pair<int,int>>::iterator> _keyTable; // 
 public:
     LRUCache(int capacity): _capacity(capacity){
-        _keyTable.reserve(2*_capacity); // 减少reallocate
+
+        _keyTable.reserve(_capacity); // 减少reallocate
+
     }
     
     int get(int key) {
@@ -105,4 +110,14 @@ public:
         }
 
     }
+
+
 };
+
+/**
+ * Your LRUCache object will be instantiated and called as such:
+ * LRUCache* obj = new LRUCache(capacity);
+ * int param_1 = obj->get(key);
+ * obj->put(key,value);
+ */
+>>>>>>> b3c0aebf36a07f518c404fcd0156295bf8a679b6
